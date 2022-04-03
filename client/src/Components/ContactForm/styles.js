@@ -87,7 +87,8 @@ export const LabelComponent = styled.label`
   margin-bottom: 0.5rem;
 `;
 
-
-export const ErrorSpan = styled.span`
-  color: red;
-`
+export const ErrorSpan = styled.small`
+  color: #e94848;
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+`;
