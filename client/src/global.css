@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #121212;
+  --light-background: #1A1B1B;
+  --components-background: #1F2424;
+  --border-color: #39393E;
+  --white-color: #FFFFFF;
+  --paragraph-color: #C6C6C6; 
+  --placeholder-color: #A5A5A5;
+  --green: #80FF72;
+  --blue: #31DEFC;
+}
+
+body {
+  background: var(--background);
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Overpass', sans-serif;
+  color: var(--white-color)
+}
+
+p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+a, Link {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  transition: .3;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px c; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--components-background); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(106.67deg, #80FF72 0%, #31DEFC 100%);
+}
+
