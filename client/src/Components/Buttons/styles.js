@@ -17,7 +17,7 @@ export const Button = styled.button`
   transition: .3s;
 
   &:hover {
-    background-color: var(--white-color)
+    background-color: var(--white-color);
   }
 
   span {

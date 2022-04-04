@@ -7,11 +7,13 @@ import LoginIcon from "../../assets/icons/login-icon.svg";
 import SearchIcon from "../../assets/icons/search-icon.svg";
 
 import InitNavBar from "../../Components/InitNavBar";
+import Hero from "../../Components/Hero";
 import Buttons from "../../Components/Buttons";
 import Division from "../../Components/Division";
 import PageTitle from "../../Components/PageTitle";
 import ContactForm from "../../Components/ContactForm";
 import Footer from "../../Components/Footer";
+import StyledSpan from "../../Components/StyledSpan";
 
 import {
   SectionsContainer,
@@ -40,8 +42,9 @@ export default function Home() {
               />
               <p>
                 Busque informações rápidas de seus livros favoritos a qualquer
-                hora e lugar com o <span>getBooks</span>. Uma biblioteca
-                digital, open-source, feita para ajudar quem gosta de leitura.
+                hora e lugar com o <StyledSpan text={"getBooks"} />. Uma
+                biblioteca digital, open-source, feita para ajudar quem gosta de
+                leitura.
               </p>
               <p>
                 Cadastre-se na plataforma e comece a contribuir agora mesmo.
@@ -59,9 +62,11 @@ export default function Home() {
             </ButtonsContainer>
           </TextContainer>
           <div className="hero-container">
-            <img
+            <Hero
               src={hero}
-              alt="Desenho de uma mulher lendo um livro sentada sobre três livros gigantes. A mulher tem cabelos pretos, pele parda. O livro que está lendo tem a capa branca."
+              alt={
+                "Desenho de uma mulher lendo um livro sentada sobre três livros gigantes. A mulher tem cabelos pretos, pele parda. O livro que está lendo tem a capa branca."
+              }
             />
           </div>
         </ExploreContainer>
@@ -117,9 +122,11 @@ export default function Home() {
             </Texts>
           </TextContainer>
           <div className="hero-container">
-            <img
+            <Hero
               src={ManifestoHero}
-              alt="Desenho de uma mulher lendo um livro sentada sobre três livros gigantes. A mulher tem cabelos pretos, pele parda. O livro que está lendo tem a capa branca."
+              alt={
+                "Desenho de uma mulher lendo um livro sentada sobre três livros gigantes. A mulher tem cabelos pretos, pele parda. O livro que está lendo tem a capa branca."
+              }
             />
           </div>
         </ManifestTextContainer>

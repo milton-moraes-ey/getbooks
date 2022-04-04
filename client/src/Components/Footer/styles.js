@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FooterComponent = styled.div`
   width: 100%;
+
   
   background: var(--light-background);
   border: 1px solid var(--border-color);

@@ -9,10 +9,9 @@ import {
   ErrorSpan,
 } from "./styles";
 
-import SendIcon from "../../assets/icons/send-icon.svg";
+import StyledSpan from "../StyledSpan";
 
-// import Inputs from "../Inputs";
-// import Label from "../Label";
+import SendIcon from "../../assets/icons/send-icon.svg";
 
 import { useForm } from "react-hook-form";
 
@@ -88,7 +87,7 @@ export default function ContactForm() {
         </InputGroup>
         <InputGroup>
           <InputSubmit type="submit">
-            <span>ENVIAR</span>
+            <StyledSpan text={"ENVIAR"} />
             <img src={SendIcon} alt="" />
           </InputSubmit>
         </InputGroup>
