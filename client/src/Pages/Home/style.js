@@ -33,7 +33,11 @@ export const Texts = styled.div`
 export const ButtonsContainer = styled.div`
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+
+  .right-button {
+    margin-right: 2rem;
+  }
 `;
 
 export const TitleContainer = styled.div`

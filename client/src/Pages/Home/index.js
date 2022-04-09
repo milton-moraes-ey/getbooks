@@ -53,7 +53,7 @@ export default function Home() {
 
             <ButtonsContainer>
               <Link to="/login">
-                <Buttons description="Faça Login" icon={LoginIcon} />
+                <Buttons description="Faça Login" icon={LoginIcon} className="right-button" />
               </Link>
 
               <Link to="/bookslist">

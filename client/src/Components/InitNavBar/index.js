@@ -3,7 +3,7 @@ import { ContainerNavBar, NavBar, Button } from "./styles";
 import Hero from "../Hero";
 import logo from "../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
-import StyledSpan from "../StyledSpan"
+import StyledSpan from "../StyledSpan";
 
 function InitNavBar() {
   return (
@@ -31,7 +31,7 @@ function InitNavBar() {
           <div className="buttons">
             <Link to="/login">
               <Button>
-              <StyledSpan text={"Login"} />
+                <StyledSpan text={"Login"} />
               </Button>
             </Link>
 
