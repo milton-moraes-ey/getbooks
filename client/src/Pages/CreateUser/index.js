@@ -1,10 +1,10 @@
 import React from "react";
-import InitNavBar from "../../Components/InitNavBar";
+import AutNavBar from "../../Components/AutNavBar";
 
 export default function CreateUser() {
   return (
     <>
-    <InitNavBar />
+    <AutNavBar />
       <h1>Criar sua Conta</h1>
     </>
   );

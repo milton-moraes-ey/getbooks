@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import InitNavBar from "../../Components/InitNavBar";
+import AutNavBar from "../../Components/AutNavBar";
 import Footer from "../../Components/Footer";
 import { TitleContainer } from "../Home/style";
 import {
@@ -50,7 +50,7 @@ function Login() {
   return (
     <>
       <Container>
-        <InitNavBar />
+        <AutNavBar />
 
         <TitleContainer>
           <PageTitle id="login" partOne="Acesse sua " styledTitle="conta" />

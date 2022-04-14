@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "./styles";
 
-import InitNavBar from "../../Components/InitNavBar";
+import AutNavBar from "../../Components/AutNavBar";
 import PageTitle from "../../Components/PageTitle";
 import { TitleContainer } from "../Home/style";
 import {
@@ -34,9 +34,10 @@ export default function ForgotPassword() {
   return (
     <>
       <Container>
-        <InitNavBar />
+        <AutNavBar />
         <TitleContainer>
           <PageTitle partOne={"Recuperar "} styledTitle={"Senha"} />
+          <p>Por favor, insira o seu e-mail de cadastro para recuperar sua senha.</p>
         </TitleContainer>
 
         <ContactFormContainer onSubmit={handleSubmit(onSubmit)}>
